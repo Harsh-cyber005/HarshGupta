@@ -10,7 +10,7 @@ import { SectionWrapper } from "../hoc"
 
 const ServiceCard = ({index, title, icon}) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="sm:w-[250px] w-[220px]">
       <motion.div variants={fadeIn("right", "spring",0.5*index,0.75)} className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
         <div options={{
           max: 45,
@@ -35,7 +35,7 @@ const About = () => {
       <motion.p variants={fadeIn("","",0.1,1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         I am a full stack web developer with a passion for creating beautiful and functional web applications. I am a self-taught developer with a background in Mechanical Engineering. I am a quick learner and I am always looking for new challenges. I have experience working with JavaScript, React, Redux, Node, Express, SQL, Sequelize, PostgreSQL, HTML, CSS, Git, GitHub, Heroku, and Netlify.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap justify-center items-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}/>
         ))}
