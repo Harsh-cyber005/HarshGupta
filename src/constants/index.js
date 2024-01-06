@@ -21,6 +21,9 @@ import {
     leaderboard,
     portfolio,
     threejs,
+    harsh,
+    rupam,
+    vishnu,
   } from "../assets";
   
   export const navLinks = [
@@ -159,7 +162,7 @@ import {
       name: "Harsh Raj Gupta",
       designation: "Student",
       company: "IIT Kharagpur",
-      image: "/src/assets/harsh.jpeg",
+      image: harsh,
     },
     {
       testimonial:
@@ -167,7 +170,7 @@ import {
       name: "Rupam Mahato",
       designation: "Student",
       company: "IIT Kharagpur",
-      image: "/src/assets/rupam.jpeg",
+      image: rupam,
     },
     {
       testimonial:
@@ -175,7 +178,7 @@ import {
       name: "Vishnu Kumar",
       designation: "Student",
       company: "IIT Kharagpur",
-      image: "/src/assets/vishnu.jpeg",
+      image: vishnu,
     },
   ];
   

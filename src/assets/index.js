@@ -28,6 +28,10 @@ import mern from "./company/mern.png";
 import leaderboard from "./leaderboard.png";
 import portfolio from "./portfolio.png";
 
+import harsh from "./harsh.png";
+import rupam from "./rupam.png";
+import vishnu from "./vishnu.png";
+
 export {
   logo,
   backend,
@@ -55,4 +59,7 @@ export {
   mern,
   leaderboard,
   portfolio,
+  harsh,
+  rupam,
+  vishnu,
 };
